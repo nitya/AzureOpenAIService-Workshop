@@ -2,7 +2,7 @@
 
 This repository contains content for a 60-minute workshop of interaction with the OpenAI model ChatGPT (gpt-3.5-turbo).
 
-If you are taking the workshop, **[Click here to begin](https://hnky.github.io/AzureOpenAIService-Workshop/)**.
+If you are taking the workshop, **[Click here to begin](https://globalaicommunity.github.io/AzureOpenAIService-Workshop/)**.
 
 ## Modifying this workshop
 
