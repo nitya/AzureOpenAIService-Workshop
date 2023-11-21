@@ -9,8 +9,8 @@ const config = {
   title: " Learn how to use OpenAI models (e.g. ChatGPT) using Azure OpenAI",
   tagline: "A 60-minute workshop on OpenAI GPT Models",
 
-  url: "https://hnky.github.io/",
-  baseUrl: "/AzureOpenAIService-Workshop/",
+  url: "https://workshop.globalai.community/",
+  baseUrl: "/",
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
