@@ -4,11 +4,9 @@ For this workshop we are going to use an interface that is build on top of the A
 
 ## Getting started
 
-1. Navigate to: https://globalai.community/request-access-key fill in the form and receive your temporary access key in your email.
-2. Navigate to: https://playground.globalai.community. 
-Enter the access code in the top right of the screen and click authorize.  
-
-
+1. Get your event-key from your workshop organizers 
+2. Get your access-key on https://workshop-key.globalai.community/ fill in the form, enter the event-key and receive your access-key in your email.
+3. Start using the playground on https://playground.globalai.community Enter the access-code in the top right of the screen and click authorize.  
 
 ## Tips and tricks
 
