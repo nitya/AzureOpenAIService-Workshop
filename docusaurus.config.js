@@ -1,14 +1,16 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+
   title: " Learn how to use OpenAI models (e.g. ChatGPT) using Azure OpenAI",
   tagline: "A 60-minute workshop on OpenAI GPT Models",
-
   url: "https://workshop.globalai.community/",
   baseUrl: "/",
 
@@ -16,18 +18,11 @@ const config = {
   onBrokenMarkdownLinks: "ignore",
   trailingSlash: true,
 
+  organizationName: "hnky", 
+  projectName: "AzureOpenAIService-Workshop", 
+  deploymentBranch: "gh-pages", 
   favicon: "img/favicon.ico",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "hnky", // Usually your GitHub org/user name.
-  projectName: "AzureOpenAIService-Workshop", // Usually your repo name.
-
-  deploymentBranch: "gh-pages", // Branch that GitHub pages will deploy from.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -56,6 +51,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      docs: {
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: true,
+        },
+      },
+
       navbar: {
         title: "Explore the OpenAI GPT Models",
         logo: {
@@ -64,15 +67,26 @@ const config = {
         },
         items: [],
       },
+
       footer: {
         style: "dark",
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Explore the Azure OpenAI Service Workshop. Built with Docusaurus.`,
       },
+
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-        additionalLanguages: ["csharp"],
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+
+      /* Banner Announcements */
+      announcementBar: {
+        id: 'Responsbile AI Hub Banner',
+        content:
+          '<a href="  https://github.com/hnky/AzureOpenAIService-Workshop"><b> Star this on GitHub</b></a> ▪️ <a href="hhttps://globalai.community/about/join-the-community/"><b>Join the Global AI Community</b></a> ',
+        backgroundColor: '#000000',
+        textColor: '#ffffff',
+        isCloseable: false,
       },
 
       /* Clarity Config */
