@@ -1,6 +1,5 @@
 // https://www.npmjs.com/package/react-share
 
-import React from 'react';
 import { TwitterShareButton, TwitterIcon } from 'react-share';
 import { WeiboShareButton, WeiboIcon } from 'react-share';
 import { FacebookShareButton, FacebookIcon } from 'react-share';
