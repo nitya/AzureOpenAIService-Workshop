@@ -18,7 +18,7 @@ const config = {
   onBrokenMarkdownLinks: "ignore",
   trailingSlash: true,
 
-  organizationName: "hnky", 
+  organizationName: "globalaicommunity", 
   projectName: "AzureOpenAIService-Workshop", 
   deploymentBranch: "gh-pages", 
   favicon: "img/favicon.ico",
@@ -81,7 +81,7 @@ const config = {
 
       /* Banner Announcements */
       announcementBar: {
-        id: 'Responsbile AI Hub Banner',
+        id: 'Global AI Community Banner',
         content:
           '<a href="https://github.com/GlobalAICommunity/AzureOpenAIService-Workshop"><b> Star this on GitHub</b></a> ▪️ <a href="hhttps://globalai.community/about/join-the-community/"><b>Join the Global AI Community</b></a> ',
         backgroundColor: '#000000',
