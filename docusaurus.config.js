@@ -83,7 +83,7 @@ const config = {
       announcementBar: {
         id: 'Responsbile AI Hub Banner',
         content:
-          '<a href="  https://github.com/hnky/AzureOpenAIService-Workshop"><b> Star this on GitHub</b></a> ▪️ <a href="hhttps://globalai.community/about/join-the-community/"><b>Join the Global AI Community</b></a> ',
+          '<a href="https://github.com/GlobalAICommunity/AzureOpenAIService-Workshop"><b> Star this on GitHub</b></a> ▪️ <a href="hhttps://globalai.community/about/join-the-community/"><b>Join the Global AI Community</b></a> ',
         backgroundColor: '#000000',
         textColor: '#ffffff',
         isCloseable: false,
