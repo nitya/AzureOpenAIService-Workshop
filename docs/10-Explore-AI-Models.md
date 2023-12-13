@@ -1,8 +1,12 @@
+---
+title: 2. Explore AI Models
+slug: /explore
+---
+
 # Explore AI Models
 
-:::tip PRE-REQUISITE
-
-Before you begin this section, you **must have completed** the [Setup](Setup) to get the relevant access key.
+:::info PRE-REQUISITES
+You must [**complete the Setup**](Setup) and activate your access key before you proceed.
 :::
 
 ## Deployed models available:
